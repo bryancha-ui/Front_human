@@ -1,0 +1,63 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+div{
+    width: 100px;
+    height : 100px;
+}
+
+.div1{
+    background-color : red;
+}
+
+.div2{
+    background-color: orangered;
+    position: relative;
+    left : 100px;
+}
+
+.div3{
+    background-color: orange;
+    position: relative;
+    left : 200px;
+}
+
+.div4{
+    background-color: yellow;
+    position: relative;
+    left : 300px;
+}
+
+.div5{
+    background-color: yellowgreen;
+    position : absolute;
+    left : 200px;
+    top : 100px;
+}
+
+.div6{
+    background-color: gray;
+    position :relative;
+    left : 400px;
+}
+
+.div7{
+    background-color: chartreuse;
+    position :relative;
+    left : 500px;
+}
+.div8{
+    background-color: green;
+    position : relative;
+    left : 600px;
+}
+.div9{
+    background-color: darkgreen;
+    position : relative;
+    left :700px;
+}
+.div10{
+    background-color: darkblue;
+}

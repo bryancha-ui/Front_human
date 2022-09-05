@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bgblack">
+        <div class="elect" id="pickachu">피카츄</div>
+        <div class="elect">라이츄</div>
+        <div class="fire">파이리</div>
+    </div>
+
+    <h1 id="gobu">꼬부기</h1>
+    <h3>버터플</h3>
+    <p id="maincontent">
+        <b>Lorem</b> ipsum dolor, sit amet consectetur adipisicing elit. Fugit beatae laborum, reprehenderit aliquid esse numquam eius iste voluptatum sunt quidem molestiae reiciendis doloremque veniam? Aliquid consequuntur ducimus dolorum illum dolorem. Nam, et voluptatibus tempore nobis officiis maxime corporis aliquid corrupti voluptas libero fuga qui ducimus, doloribus numquam! Sapiente, odit. Vitae itaque eaque tenetur! Consequatur dicta repellat amet eaque, quam atque ducimus, optio maiores expedita omnis, molestias quae inventore officiis tenetur! Alias nostrum quam maxime quas maiores. Nihil pariatur deleniti omnis facere vitae rem quisquam consectetur hic fugit quaerat dolorum earum quibusdam obcaecati sit aspernatur, commodi ipsa illum laborum distinctio ipsum!
+    </p>
+    <main>
+        <strong>Lorem</strong> ipsum dolor, sit amet consectetur adipisicing elit. Fugit beatae laborum, reprehenderit aliquid esse numquam eius iste voluptatum sunt quidem molestiae reiciendis doloremque veniam? Aliquid consequuntur ducimus dolorum illum dolorem. Nam, et voluptatibus tempore nobis officiis maxime corporis aliquid corrupti voluptas libero fuga qui ducimus, doloribus numquam! Sapiente, odit. Vitae itaque eaque tenetur! Consequatur dicta repellat amet eaque, quam atque ducimus, optio maiores expedita omnis, molestias quae inventore officiis tenetur! Alias nostrum quam maxime quas maiores. Nihil pariatur deleniti omnis facere vitae rem quisquam consectetur hic fugit quaerat dolorum earum quibusdam obcaecati sit aspernatur, commodi ipsa illum laborum distinctio ipsum!
+    </main>
+
+    <br><br>    
+        <!-- Q2. label(라벨, 레이블)과 input type="radiobox"를 조합해서 피카츄, 파이리, 꼬부기 중에 하나만 선택할 수 있는 input을 만들어보세요.-->
+        <form action="action.jsp">
+            <!-- name은 백엔드로 넘어갈 때의 이름인데, 그게 같게 함으로써 그룹을 지어주는 효과 -->
+            <div><input type="radio" name="pokemon" value="pikachu" checked>피카츄</div>
+            <div><input type="radio" name="pokemon" value="Charmander">파이리</div>
+            <div><input type="radio" name="pokemon" value="Squirtle">꼬부기</div>
+        </form><br><br>
+    
+    
+        <a>강사님 방법</a><br>
+        <label><input type="radio" name="pokemon">피카츄</label>
+        <label><input type="radio" name="pokemon">파이리</label>
+        <label><input type="radio" name="pokemon">꼬부기</label>
+    <style>
+        .elect{
+            color: yellow;
+        }
+        
+        .fire{
+            color: orangered;
+        }
+        
+        .bgblack{
+            background-color: black;
+        }
+        
+        #pickachu{
+            font-size: 30px;
+            font-weight: 550;
+        }
+        
+        #gobu{
+            color: skyblue;
+        }
+    </style>
+</body>
+</html>

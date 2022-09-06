@@ -1,0 +1,44 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+div{
+    width: 100px;
+    height : 100px;
+}
+
+.div1{
+    background-color : yellow;
+    width: 200px;
+    height: 100px;
+}
+
+.div2{
+    background-color: blue;
+    position: relative;
+    left : 200px;
+    height:300px;
+    top:-100px;
+}
+
+.div3{
+    background-color: black;
+    position: relative;
+    left:100px;
+    top : -300px;
+    
+}
+
+.div4{
+    background-color: white;
+    position: relative;
+}
+.div5{
+    background-color:darkblue;
+    position: relative;
+    top:-500px;
+    height:200px;
+}
+
+

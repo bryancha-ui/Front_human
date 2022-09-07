@@ -4,3 +4,8 @@ var isExist = academyName.indexOf("교육");
 var strLength = academyName.length;
 
 console.log(strLength);
+
+var num = 123;
+var tiger = "호랑이";
+console.log(num+tiger);
+

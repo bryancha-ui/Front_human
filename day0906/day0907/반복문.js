@@ -89,3 +89,4 @@ while (num1<maxNum){
 do{
     console.log(num1++)
 }while(num1<maxNum);
+

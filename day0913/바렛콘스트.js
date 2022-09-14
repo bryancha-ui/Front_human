@@ -32,4 +32,5 @@ function 바는문제(){
     var problem = "지역변수";
     console.log("함수안에서 찍은 변수:" +problem);
 }
-console.log("함수밖에서 찍은 변수 : "+problem)
+console.log("함수밖에서 찍은 변수 : "+problem); //함수일때는 블록이 유효하다.
+

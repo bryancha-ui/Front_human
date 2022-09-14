@@ -100,27 +100,33 @@ console.log(factorial(5));
 
 //6. 선생님 방법
 function buyMouse(brand, money){
-    let 거스름돈 = 0;
-    switch (brand):
-    case brand
+    let exchange = 0;
+    switch(exchange){
+        case "Samsung":
+            console.log()
+            break;
+        case "dell":
+            console.log("100입니다.");
+            break;
+        case "lg":
+            console.log("");
+
+        default:
+            console.log();
+        
+    }
+switch(num){
+    case 90:
+    case 95:
+        console.log("90이상입니다.");
+        break;
+    case 100:
+        console.log("100입니다.");
+        break;
+    default:
+        console.log("디폴트입니다.");
     
-    if(brand=="Samsung"){
-    price = 35000;}
-    else if (brand=="dell"){
-        price = 32000;
-    }
-    else if (brand=="lg"){
-        price = 28000;
-    }
-    else if (brand=="razor"){
-        price = 60000;
-    }
-    else{
-        price = "no price";
-    }
-    let 몇개= Math.floor(money/price)
-    return 몇개;}
-console.log(buyMouse("lg", 100000));
+}
 
 function howManyBuy(){
     let brand="삼성";
